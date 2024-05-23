@@ -1,0 +1,12 @@
+fields:
+  topic:
+    description: A major object of interest or concern (as in a discussion or artistic composition)
+    possible_values:
+      politics:
+        description: The activities associated with the governance of a country or area, especially the debate between parties having power.
+      sports:
+        description: An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment.
+      science:
+        description: The systematic study of the structure and behaviour of the physical and natural world through observation, experimentation, and the testing of theories against the evidence obtained.
+      cars:
+        description: Cars are vehicles with four wheels that people use to drive around.
