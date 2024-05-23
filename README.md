@@ -1,8 +1,10 @@
 # coderclient
 
-This is a POC for an information extraction tool for text documents. The tool
-frameworks the information extraction process, with a codebook interface that
-makes the information extraction process as easy as possible for researchers.
+This is a POC for an information extraction tool for text documents using LLMs.
+The tool frameworks the information extraction process, with a codebook
+interface that makes the information extraction process as easy as possible for
+researchers. It builds on the llama.cpp project which lets you run LLM models
+locally.
 
 ## Requirements
 
