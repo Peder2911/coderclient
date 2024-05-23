@@ -8,7 +8,7 @@ class PossibleValue(pydantic.BaseModel):
 
 class Field(pydantic.BaseModel):
     description: str
-    possible_values: dict[str, PossibleValue] | None
+    possible_values: dict[str, PossibleValue] | None = None
 
     @property
     def jsonschema(self):
@@ -26,7 +26,8 @@ class Codebook(pydantic.BaseModel):
             "type": "object",
             "properties": {
                 field_name: field.jsonschema for field_name,field in self.fields.items()
-            }
+            },
+            "required": [*self.fields.keys()]
         }
 
 

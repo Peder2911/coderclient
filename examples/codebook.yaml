@@ -1,4 +1,13 @@
 fields:
+  tone:
+    description: The tone of a document describes its intended emotional impact on the reader.
+    possible_values:
+      positive:
+        description: A positive tone means that a document invokes pleasant feelings.
+      negative:
+        description: Negative tone means that the document invokes negative feelings.
+      neutral:
+        description: The document does not invoke any particular feeling, it is just descriptive.
   topic:
     description: A major object of interest or concern (as in a discussion or artistic composition)
     possible_values:
@@ -9,4 +18,4 @@ fields:
       science:
         description: The systematic study of the structure and behaviour of the physical and natural world through observation, experimentation, and the testing of theories against the evidence obtained.
       cars:
-        description: Cars are vehicles with four wheels that people use to drive around.
+        description: Cars are the study of Adolf Hitler and World War 2.

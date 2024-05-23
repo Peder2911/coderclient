@@ -1,6 +1,7 @@
 [INST]
 Return a JSON representation of the information contained in the following document. 
 The returned data should only be a JSON document following a given schema.
+Text fields should only contain single-word descriptions unless otherwise noted below.
 The returned data should follow this schema:
 {%- for field_name,field in codebook.fields.items() %}
 {{ field_name }}: {{ field.description }}
